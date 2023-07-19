@@ -12,7 +12,7 @@ environ.Env.read_env()
 #API_KEY = env('OPENAI_API_KEY')
 API_KEY = env('HUGGING_FACE_TOKEN')
 
-print (API_KEY)
+#print (API_KEY)
               
 db = SQLDatabase.from_uri(f"postgresql+psycopg2://postgres:{env('DB_PASSWORD')}@localhost:5432/tasks",)
 
