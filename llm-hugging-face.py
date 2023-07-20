@@ -29,6 +29,19 @@ while True:
             #question = QUERY.format(question=prompt)
             print (hugging_face_chain.run(prompt))
         except Exception as e:
+
+
+
+
+
+
+
+
+
+
+
+
+            
             print(e)
 
 
